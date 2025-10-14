@@ -24,6 +24,7 @@ jobs:
       - name: Build app
         run: npm run build
 
+      # Added a couple additional permissions to the service account
       # ✅ Authenticate with GCP
       - id: 'auth'
         uses: 'google-github-actions/auth@v2'
